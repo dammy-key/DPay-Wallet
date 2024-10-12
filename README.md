@@ -75,12 +75,12 @@ D.PAY is a Java-based backend integrated with PostgreSQL for secure data storage
 
 3. Update the `application.properties` with your database credentials:
    ```properties
-   spring.datasource.url=jdbc:postgresql://localhost:5432/dpaywallet
-   spring.datasource.username=dpayuser
-   spring.datasource.password=Damilare143@
+   spring.datasource.url=jdbc:postgresql://
+   spring.datasource.username=
+   spring.datasource.password=
    spring.jpa.hibernate.ddl-auto=update
    spring.mail.host=smtp.gmail.com
-   spring.mail.port=587
+   spring.mail.port=
    spring.mail.username=your-email@gmail.com
    spring.mail.password=your-email-password
    ```
